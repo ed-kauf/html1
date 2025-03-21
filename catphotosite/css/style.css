@@ -1,0 +1,57 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffecd1;
+    color: #001524;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 20px;
+    background-color: #4594a0;
+    border-radius: 5px;
+    font-variant: small-caps;
+    padding: 20px 10px;
+    color: #264653;
+}
+
+h2 {
+    font: small-caps lighter 25px Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1.5px;
+    color: #15616d;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    border-bottom: solid 3px #15616d;
+}
+
+img {
+    border: 10px double #ff7d00;
+}
+
+
+a {
+    color: #ff7d00;
+}
+
+/*CLASS SELECTORS*/
+
+.section1 {
+    columns: 2;
+    text-align: center;
+    background-color: #f6d789;
+    margin: 20px;
+    max-width: 1000px;
+}
+
+.para {
+    margin-top: 20%;
+}
+
+.lists {
+    columns: 2;
+    margin-top: 0;
+    background-color: #f6d789;
+}
