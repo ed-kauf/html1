@@ -1,0 +1,57 @@
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    padding: 30px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    color: brown;
+    font-size: 100px;
+}
+
+img {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    align-self: center;
+}
+
+#img-caption {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+p {
+    text-align: center;
+}
+
+a#tribute-link {
+    color: black;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 50%;
+}
+
+atribute-link:hover {
+    background-color: black;
+    color: brown;
+}
